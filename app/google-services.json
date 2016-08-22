@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "973685280696",
+    "firebase_url": "https://correlativas.firebaseio.com",
+    "project_id": "correlativas",
+    "storage_bucket": "correlativas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973685280696:android:f809d3dcbb53d283",
+        "android_client_info": {
+          "package_name": "com.jmcafferata.correlativas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973685280696-7b4nun4bu1geg2c881fvii48f0qp73ir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABi3lzf4Id_y5KwgCqbKGmouh4oUP57pc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.jmcafferata.correlativas.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/mainMenuTitle"
+            android:id="@+id/title"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/mainMenuSelect"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:maxWidth="300dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <Spinner
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/uba"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:spinnerMode="dropdown"
+            android:background="@color/button_material_light" />
+
+        <Spinner
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/derecho"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:spinnerMode="dropdown"
+            android:background="@color/button_material_light"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/exactas"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:spinnerMode="dropdown"
+
+            android:background="@color/button_material_light"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fadu"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:spinnerMode="dropdown"
+
+            android:background="@color/button_material_light"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fiuba"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:spinnerMode="dropdown"
+
+            android:background="@color/button_material_light"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fsoc"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:spinnerMode="dropdown"
+            android:background="@color/button_material_light"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/psico"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:spinnerMode="dropdown"
+            android:background="@color/button_material_light"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mainMenu"
+            android:id="@+id/button1"
+
+            android:layout_marginTop="40dp"
+
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:textColor="@color/White" />
+
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company"
+            android:id="@+id/company"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>
